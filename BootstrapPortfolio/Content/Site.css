@@ -1,0 +1,46 @@
+﻿#modal-button {
+    margin-top: 10px;
+}
+
+.my-btn {
+    margin-top: 20px;
+}
+
+.inner {
+    margin: 5px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow {
+    color: purple;
+    font-weight: bold;
+}
+
+.green {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .portfolio-modal .close-modal .lr {
+        height: 40px;
+    }
+    .portfolio-modal .close-modal .lr .rl {
+        height: 40px;
+    }
+    .portfolio-modal .modal-content h2 {
+        font-size: 2em;
+    }
+}
+
+/* Codblock is hidden on page load */
+#math-code,
+#fac-code,
+#fiz-code,
+#pal-code {
+    display: none;
+}
